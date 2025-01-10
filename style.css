@@ -31,4 +31,8 @@
 .navbar-list a:hover {
   color: orange; 
 }
- 
+
+.center-text {
+  text-align: center;
+  font-size: 60px;
+}
