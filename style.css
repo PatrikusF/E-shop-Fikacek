@@ -34,5 +34,10 @@
 
 .center-text {
   text-align: center;
-  font-size: 60px;
+  font-size: 20px;
+}
+
+.container {
+  display: flex;        
+  justify-content: space-between; 
 }
