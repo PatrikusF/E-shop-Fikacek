@@ -1,43 +1,153 @@
 /*Navbar*/
 
-* {
+body {
+  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: white;
+  color: black;
 }
-
 .navbar {
-  background-color: #333;
-  padding: 10px;
+  background-color: black;
+  padding: 15px 0;
+  text-align: center;
 }
-
 .navbar-list {
-  list-style-type: none;
-  display: flex;
-  justify-content: center;
-}
-
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  }
 .navbar-list li {
+  display: inline;
   margin: 0 15px;
 }
-
 .navbar-list a {
-  color: white; 
-  text-decoration: none; 
+  color: white;
+  text-decoration: none;
   font-size: 18px;
 }
-
 .navbar-list a:hover {
-  color: orange; 
+  color: #f88d00;
 }
-
-.center-text {
+.hero {
   text-align: center;
-  font-size: 20px;
+  padding: 50px 20px;
+  background: url('https://www.balistas.cz/data/images-xl/33995-Airsoft-background.jpg') no-repeat center/cover;
+  color: white;
 }
-
-.container {
-  display: flex;        
-  justify-content: space-between; 
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+.hero p {
+  font-size: 18px;
+}
+.cta-button {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #f88d00;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.cta-button:hover {
+  background-color: #f88d00;
+}
+.footer-content {
+  text-align: center;
+  padding: 20px;
+  background-color: black;
+  color: white;
+  margin-top: 20px;
+}
+.logo {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+}
+.logo img {
+  width: 40px;
+  height: auto;
+}
+.discount-section {
+  background-color: white;
+  padding: 40px 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.discount-section h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+.products {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.product {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 200px;
+  text-align: center;
+}
+.product img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+.product h3 {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+.price {
+  font-size: 1.1em;
+  color: #d9534f;
+}
+.price del {
+  color: #777;
+}
+#kontakt-formular {
+  padding: 20px;
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 50px auto;
+}
+label {
+  display: block;
+  margin-bottom: 10px;
+  color: #555;
+  font-size: 16px;
+}
+input[type="email"], textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+input[type="email"]:focus, textarea:focus {
+  border-color: #f88d00;
+  outline: none;
+}
+button {
+  padding: 12px 20px;
+  background-color: #f88d00;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #f88d00;
 }
