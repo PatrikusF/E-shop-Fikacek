@@ -42,6 +42,9 @@ body {
 .hero p {
   font-size: 18px;
 }
+
+/*Hlavní button*/
+
 .cta-button {
   display: inline-block;
   margin-top: 15px;
@@ -62,6 +65,9 @@ body {
   color: white;
   margin-top: 20px;
 }
+
+/*Logo PF*/
+
 .logo {
   position: absolute;
   top: 10px;
@@ -81,6 +87,9 @@ body {
   font-size: 2em;
   margin-bottom: 20px;
 }
+
+/*Produkty*/
+
 .products {
   display: flex;
   justify-content: space-around;
@@ -112,6 +121,9 @@ body {
 .price del {
   color: #777;
 }
+
+/*Kontakty email*/
+
 #kontakt-formular {
   padding: 20px;
   text-align: center;
@@ -150,4 +162,10 @@ button {
 }
 button:hover {
   background-color: #f88d00;
+}
+
+/*Odkaz na kontakty*/
+
+a {
+  color: #f88d00;
 }
